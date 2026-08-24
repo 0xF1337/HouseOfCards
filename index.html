@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House of cards</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="brand">
+    <span class="wordmark">House of cards</span>
+    <span class="where" id="where"></span>
+  </div>
+  <nav class="tabs" id="tabs" role="tablist"></nav>
+  <div class="bar">
+    <span class="counts" id="counts"></span>
+    <div class="actions">
+      <button class="tbtn" id="theme-btn" title="Hell oder dunkel">Dunkel</button>
+      <button class="tbtn" id="mode-btn">Quiz</button>
+      <button class="tbtn" id="cards-btn">Karten</button>
+      <button class="tbtn" id="filter-btn">Filter</button>
+      <button class="tbtn" id="deck-btn">Deck</button>
+      <button class="tbtn" id="io-btn">Sichern</button>
+    </div>
+  </div>
+  <div class="queue" id="queue" title="Reihenfolge der kommenden Karten"></div>
+  <div id="progress"></div>
+</header>
+
+<main id="stage"></main>
+
+<section class="panel" id="p-filter" hidden><div class="inner">
+  <h2>Vorlesungen im Stapel</h2>
+  <div class="tags" id="tag-list"></div>
+  <div class="row">
+    <button class="tbtn" id="tag-all">Alle</button>
+    <button class="tbtn" id="tag-none">Keine</button>
+    <button class="tbtn ghost" id="tag-apply">Übernehmen</button>
+  </div>
+</div></section>
+
+<section class="panel" id="p-cards" hidden><div class="inner">
+  <h2 id="card-head">Karten bearbeiten</h2>
+  <div class="form">
+    <div class="two">
+      <div><label for="f-tag">Kürzel</label><input id="f-tag" placeholder="L5"></div>
+      <div><label for="f-prompt">Frage</label><input id="f-prompt" placeholder="Definiere den p-Wert."></div>
+    </div>
+    <div><label for="f-answer">Richtige Antwort</label><input id="f-answer"></div>
+    <div><label for="f-d1">Falsche Antworten — leer lassen für eine reine Karteikarte</label>
+      <input id="f-d1" placeholder="Falsch 1"></div>
+    <input id="f-d2" placeholder="Falsch 2"><input id="f-d3" placeholder="Falsch 3">
+    <div><label for="f-expl">Erklärung</label><textarea id="f-expl" class="short"></textarea></div>
+  </div>
+  <div class="row">
+    <button class="tbtn ghost" id="card-save">Karte speichern</button>
+    <button class="tbtn" id="card-clear">Formular leeren</button>
+    <span class="msg" id="card-msg"></span>
+  </div>
+  <div class="row mb">
+    <input id="card-search" placeholder="Karten durchsuchen" class="grow">
+  </div>
+  <div class="cardlist" id="card-list"></div>
+</div></section>
+
+<section class="panel" id="p-deck" hidden><div class="inner">
+  <h2>Decks verwalten</h2>
+  <div class="row tight">
+    <input id="deck-name" placeholder="Name des Decks" class="grow">
+    <button class="tbtn ghost" id="deck-rename">Umbenennen</button>
+    <button class="tbtn" id="deck-new">Neues Deck</button>
+    <button class="tbtn danger" id="deck-del">Deck löschen</button>
+  </div>
+  <div class="row">
+    <button class="tbtn" id="round-new">Runde neu starten</button>
+    <button class="tbtn danger" id="deck-reset">Statistik zurücksetzen</button>
+  </div>
+  <p class="gap-s">Runde neu starten setzt die Stufen zurück und behält die Fehlerzähler. Karten, die du nie verpatzt hast, starten dann eine Stufe höher.</p>
+  <div class="msg" id="deck-msg"></div>
+</div></section>
+
+<section class="panel" id="p-io" hidden><div class="inner">
+  <h2>Importieren</h2>
+  <p>JSON einfügen oder Datei wählen. Gleiche <code>id</code> überschreibt den Karteninhalt und behält Stufe und Statistik.</p>
+  <pre>{
+  "name": "Mein Deck",
+  "cards": [
+    {
+      "id": "stat-001",
+      "tag": "L5",
+      "prompt": "Definiere den p-Wert.",
+      "answer": "P(Statistik so extrem | H0 wahr)",
+      "distractors": ["P(H0 | Daten)", "P(Zufall)", "P(Fehler 2. Art)"],
+      "explanation": "Konditioniert auf H0, nicht auf die Daten."
+    }
+  ]
+}</pre>
+  <p>Pflicht sind nur <code>prompt</code> und <code>answer</code>. Ohne <code>distractors</code> wird die Karte eine reine Karteikarte. Ein blankes Array <code>[{…}]</code> geht auch.</p>
+  <textarea id="io-text" placeholder='{"cards":[{"prompt":"…","answer":"…"}]}' spellcheck="false"></textarea>
+  <div class="row">
+    <select id="io-target"></select>
+    <input type="file" id="io-file" accept=".json,application/json" class="filepick">
+    <button class="tbtn ghost" id="io-run">Importieren</button>
+  </div>
+  <div class="msg" id="io-msg"></div>
+  <h2 class="gap">Sichern</h2>
+  <p id="io-where"></p>
+  <div class="row tight">
+    <button class="tbtn ghost" id="dl-all">Alles sichern</button>
+    <button class="tbtn" id="dl-deck">Nur dieses Deck</button>
+    <button class="tbtn" id="dl-clean">Deck ohne Fortschritt</button>
+  </div>
+  <div class="msg" id="io-msg2"></div>
+</div></section>
+
+<script src="app.js"></script>
+</body>
+</html>
