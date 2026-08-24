@@ -50,7 +50,7 @@ html[data-theme="dark"] .top{box-shadow:0 6px 18px rgba(0,0,0,.3)}
   width:0;transition:width .45s var(--ease)}
 .brand{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .wordmark{display:inline-block;font-family:var(--mono);font-size:20px;font-weight:700;
-  letter-spacing:-.03em;text-transform:uppercase;line-height:1.1;
+  letter-spacing:-.03em;line-height:1.1;
   color:var(--card);background:var(--ink);padding:2px 2px;border-radius:1px;
   box-shadow:2px 2px 0 }
 
