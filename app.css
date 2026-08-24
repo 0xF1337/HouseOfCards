@@ -49,10 +49,10 @@ html[data-theme="dark"] .top{box-shadow:0 6px 18px rgba(0,0,0,.3)}
 #progress{position:absolute;left:0;bottom:7px;height:2px;background:var(--blue);z-index:1;
   width:0;transition:width .45s var(--ease)}
 .brand{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-.wordmark{font-family:var(--mono);font-size:15px;font-weight:700;letter-spacing:-.02em;
-  text-transform:lowercase;color:var(--blue);text-shadow:1.5px 1.5px 0 var(--ghost)}
-.where{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--dim)}
-.where b{color:var(--blue);font-weight:600}
+.wordmark{display:inline-block;font-family:var(--mono);font-size:20px;font-weight:700;
+  letter-spacing:-.03em;text-transform:uppercase;line-height:1.1;
+  color:var(--card);background:var(--ink);padding:6px 12px;border-radius:1px;
+  box-shadow:3px 3px 0 var(--orange)}
 
 .tabs{display:flex;gap:0;margin-top:13px;overflow-x:auto;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
