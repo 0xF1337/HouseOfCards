@@ -1,4 +1,4 @@
-# Kartenstapel
+# HouseOfCards (claude gen)
 
 Lernkarten mit Leitner-Boxen, mehreren Decks und Karteneditor. Läuft als einzelne HTML-Datei oder als kleiner Server für mehrere Leute.
 
