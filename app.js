@@ -1316,7 +1316,7 @@ function render(){
     }).join("") + `</div>`;
   } else {
     h += UI.revealed ? `<div class="face">${esc(c.answer)}</div>`
-                     : `<div class="face veiled">Leertaste — Antwort zeigen</div>`;
+                     : `<button class="face veiled" data-reveal>Antwort zeigen</button>`;
   }
   if(UI.revealed && c.explanation)
     h += `<div class="explain"><span class="lbl">Warum</span>${esc(c.explanation)}</div>`;
@@ -1328,7 +1328,7 @@ function render(){
     h += `<p class="hintbar">richtig → ${nb>=MASTER?"sitzt, raus aus der Runde":`in ~${G[nb-1]} Karten wieder`}`
        + ` · falsch → in ~${G[0]} Karten wieder</p>`;
   } else if(quiz){
-    h += `<p class="hintbar">Ziffern 1–${UI.shuffled.length}</p>`;
+    h += `<p class="hintbar">antippen · oder Ziffern 1–${UI.shuffled.length}</p>`;
   }
   stage.innerHTML = `<div id="card" class="${enter ? "in" : ""}"><div class="sheet">${h}</div></div>`;
 }
@@ -1365,6 +1365,7 @@ document.addEventListener("click", e => {
   const tab = e.target.closest("[data-deck]");
   if(tab){ DB.active = tab.dataset.deck; if(!deck().current) advance(); Store.save(); render(); return; }
   if(e.target.closest("#tab-add")){ createDeck(); return; }
+  if(e.target.closest("[data-reveal]") && !UI.revealed){ UI.revealed = true; render(); return; }
   const opt = e.target.closest("[data-opt]");
   if(opt && !UI.revealed){
     UI.picked = UI.shuffled[+opt.dataset.opt]; UI.revealed = true; render(); return;

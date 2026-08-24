@@ -140,7 +140,11 @@ main{flex:1;display:flex;flex-direction:column;align-items:center;padding:38px 2
   box-shadow:0 1px 0 rgba(60,50,30,.05);
   display:flex;align-items:center;animation:markIn .2s var(--ease) both}
 .face.veiled{color:var(--dim);font-family:var(--mono);font-size:12px;letter-spacing:.06em;
-  justify-content:center;border-left:1px solid var(--rule);animation:none}
+  justify-content:center;border-left:1px solid var(--rule);border-style:dashed;animation:none;
+  cursor:pointer;width:100%;text-align:center;min-height:104px;
+  transition:border-color .13s var(--ease),color .13s var(--ease),background-color .13s var(--ease)}
+.face.veiled:hover{border-color:var(--blue);color:var(--ink);background:var(--card)}
+.face.veiled:active{background:var(--sink)}
 
 .explain{width:100%;margin-top:15px;padding:15px 17px;background:var(--sink);
   border-left:3px solid var(--orange);border-radius:var(--r);font-size:15px;color:var(--ink);
