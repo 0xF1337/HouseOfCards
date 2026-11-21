@@ -1,0 +1,1063 @@
+# Spanisch-Vokabeln, Quelle für spanish-deck.json
+# Format:  spanisch | deutsch | hinweis (optional)
+# "# LEKTION" startet einen Abschnitt. Danach: python3 vocab/gen_spanish.py
+# Hinweise: "inf: x" = Infinitiv, "g, ie" usw. = Unregelmäßigkeit,
+# LA / Chile / f / m / pl / fam / "yo ..." werden in der Erklärung ausgeschrieben.
+
+# PE
+para empezar | um zu beginnen
+¿Cómo te llamas? | Wie heißt du? | inf: llamarse
+Buenos días. | Guten Morgen. Guten Tag.
+me llamo | ich heiße (wörtlich: ich nenne mich) | inf: llamarse
+soy | ich bin | inf: ser
+el / la profesor/a de español | Spanischlehrer/in
+el español | Spanisch
+Hola. | Hallo.
+Buenas tardes. | Guten Tag. Guten Abend.
+la tarde | Nachmittag
+¿y usted? | und Sie?
+y | und
+¿Cómo está? | Wie geht es Ihnen? | inf: estar
+bien | gut
+gracias | danke
+¿Qué tal? | Wie geht's?
+tú | du
+Buenas noches. | Guten Abend. Gute Nacht.
+la noche | Nacht
+¿Cómo se llama usted? | Wie heißen Sie? | inf: llamarse
+regular | mittelmäßig; hier: es geht so
+carreras universitarias | Universitätslaufbahn, Studium
+las ciencias sociales | Sozialwissenschaften
+la ciencia | Wissenschaft
+las ciencias jurídicas | Rechtswissenschaften
+el derecho | Recht, Jura
+el trabajo social | Sozialarbeit
+las relaciones laborales | Unternehmensorganisation, Personalwesen
+la relación | Bezug, Beziehung
+las finanzas | Finanzen, Finanzwesen, Finanzwirtschaft
+las ciencias políticas | Politikwissenschaften
+la economía | Wirtschaft
+el arte | Kunst
+las humanidades | Geisteswissenschaften
+las bellas artes | Schöne Künste
+la historia | Geschichte
+el periodismo | Journalismus, Publizistik, Journalistik
+la filología | Philologie, Sprachwissenschaft
+portugués/-esa | portugiesisch
+las lenguas modernas | moderne Sprachen
+las ciencias | Naturwissenschaften
+la química | Chemie
+las matemáticas | Mathematik
+la física | Physik
+la biología | Biologie
+las ciencias de la salud | Gesundheitswissenschaften
+la farmacia | Pharmazie
+la medicina | Medizin
+la veterinaria | Tiermedizin
+la enfermería | Krankenpflege
+la arquitectura | Architektur
+e | und | vor i-, hi-
+la ingeniería | Ingenieurwesen, Maschinenbau
+la ingeniería industrial | Wirtschaftsingenieurwesen, Industrietechnik
+la ingeniería civil | Bauingenieurwesen
+el diseño industrial | Industriedesign
+la ingeniería informática | Ingenieurinformatik
+la gestión de proyectos | Projektmanagement
+¿Qué significa …? | Was bedeutet …?
+más | mehr, weitere
+¿Cómo se pronuncia …? | Wie spricht man … aus?
+¿Paella se escribe con elle o con ye? | Schreibt man Paella mit „ll“ oder mit „y“?
+¿Qué significa quiero quedarme aquí? | Was bedeutet „quiero quedarme aquí“?
+¿Se dice niño o ñino con eñe al principio? | Sagt man niño oder ñino mit „ñ“ am Wortanfang?
+¿En qué página está el ejercicio de la jota? | Auf welcher Seite ist die Übung mit dem „j“?
+¿Cómo se pronuncia la ce en Cicerón? | Wie spricht man das „c“ in Cicerón aus?
+Ramiro, ¿es correcta la respuesta? | Ramiro, ist die Antwort richtig?
+frases útiles para la clase | nützliche Sätze für den Unterricht
+el mundo hispanohablante | die spanischsprachige Welt
+la ciudad | Stadt
+la persona | Person
+la gastronomía | Gastronomie
+la música | Musik
+el monumento | Monument
+la naturaleza | Natur
+¿Cómo se escribe? | Wie schreibt man das? | inf: escribir
+con | mit
+sin | ohne
+el acento | Akzent
+la diéresis | Umlaut
+m mayúscula | großes M
+m minúscula | kleines M
+mis palabras | meine Wörter
+
+# L1
+en | in
+la universidad | Universität
+¿Qué es la universidad? | Was ist die Universität?
+es | ist | inf: ser
+el / la amigo/-a | Freund/in
+el aula | Hörsaal, Klassenzimmer, Kursraum | f
+la cultura | Kultur
+el horario | Stundenplan
+el título | Titel
+el deporte | Sport
+la fiesta | Fest, Feier
+la asociación | Verbindung, Verein, Verband
+la biblioteca | Bibliothek
+el examen | Prüfung
+la excursión | Ausflug, Exkursion
+la investigación | Untersuchung, Forschung
+para mí | für mich
+bienvenido/-a (a) | willkommen in
+el departamento | Abteilung, Fachbereich
+el servicio | Service, Dienst, Dienstleistung
+el / la alumno/-a | Schüler/in; Student/in
+el tablón de anuncios | Schwarzes Brett
+el anuncio | Ankündigung, Bekanntgabe, Anzeige
+los estudios | Studium
+el / la rector/a | Rektor/in
+la inauguración del curso académico | Auftaktveranstaltung des Studienjahres
+la restauración | Restaurierung, Restauration
+de | von
+la fachada | Fassade
+la oferta | Angebot
+las actividades de deporte | Sportaktivitäten
+nuevo/-a | neu
+miles de estudiantes | Tausende Studierende
+la feria de bienvenida | Willkommensfeier (für Erstsemester)
+el plazo | Frist
+solicitar | beantragen, sich bewerben um
+la beca | Stipendium
+la movilidad | Mobilität; Beweglichkeit
+el programa | Programm
+el grado | (akademischer) Grad
+el máster universitario | Master (akademischer Grad)
+el doctorado | Doktortitel, Promotion
+propio/-a | eigene/r/s
+los servicios al estudiante | Studierendenservice
+el voluntariado | Ehrenamt, freiwilliger Dienst
+el laboratorio | Labor
+la informática | Informatik
+las prácticas | Praktikum
+la información | Information
+el lugar | Ort, Platz, Stelle
+masculino/-a | männlich
+femenino/-a | weiblich
+el singular | Einzahl
+el plural | Mehrzahl
+el / la | der / die / das (bestimmter Artikel)
+un / una | ein / eine (unbestimmter Artikel)
+unos títulos | einige Titel
+el ojo | Auge; hier: Achtung
+la cifra | Ziffer, Zahl
+tiene … años | sie ist … Jahre alt
+tener | haben | g, ie
+casi | fast
+en total | insgesamt
+tenemos | wir haben | inf: tener
+la facultad | Fakultät
+la escuela universitaria | Hochschule
+aproximadamente | etwa, ungefähr
+el campus | Campus, Universitätsgelände
+tienen | sie haben | inf: tener
+la posibilidad | Möglichkeit
+elegir | (aus)wählen | i
+entre | unter
+la nacionalidad | Nationalität
+diferente | verschieden, unterschiedlich
+yo | ich
+él / ella | er / sie
+usted | Sie (Singular)
+nosotros / nosotras | wir
+vosotros / vosotras | ihr
+ellos / ellas | sie (Plural)
+ustedes | Sie (Plural)
+el tándem | (Sprach-)Tandem; Tandempartner
+el número de teléfono | Telefonnummer
+el cero | Null
+la clase | Klasse
+no | nein; kein/e
+la cuenta | Konto
+Latinoamérica | Lateinamerika
+mi | mein/e
+la antigüedad | Alter; Altertum
+el primer día | der erste Tag
+primero/-a | erste/r/s
+el contacto | Kontakt
+¿Es usted el señor Ríos? | Sind Sie Herr Ríos?
+es | er / sie ist, Sie sind | inf: ser
+ser | sein
+el / la señor/a | Herr / Frau
+sí | ja, doch
+soy yo | das bin ich
+el / la estudiante de intercambio | Austauschschüler/-student
+claro | klar, natürlich
+¿Qué tal estás? | Wie geht es dir?
+¿De dónde …? | Woher …?
+eres | du bist | inf: ser
+Francia | Frankreich
+mira | schau | inf: mirar
+este/-a | diese/r/s
+el / la coordinador/a | Koordinator/in
+encantado/-a | sehr erfreut
+estos/-as son | das sind | inf: ser
+sois | ihr seid | inf: ser
+también | auch
+no | nein
+somos | wir sind | inf: ser
+pero | aber
+hoy | heute
+el inglés | Englisch
+el / la catedrático/-a | (Hochschul-)Professor/in
+mucho gusto | angenehm
+muy | sehr
+el / la profesor/a invitado/-a | Gastdozent/in
+invitado/-a | eingeladen
+el semestre | Semester
+no | nicht
+yo sí | ich schon
+el perfil | Profil
+el / la informático/-a | Informatiker/in
+el / la bibliotecario/-a | Bibliothekar/in
+el / la representante de alumnos | Studentenvertreter/in
+el / la becario/-a | Stipendiat/in
+el / la auxiliar médico/-a | medizinische Hilfskraft, Arzthelferin
+el / la administrativo/-a | Verwaltungsangestellte/r, Sachbearbeiter/in
+el / la investigador/a | Forscher/in, Wissenschaftler/in
+el personal de administración | Verwaltungspersonal
+el nombre | (Vor-)Name
+el apellido | Nachname
+la edad | Alter
+la dirección | Adresse
+el lugar de residencia | Wohnort
+el correo electrónico | E-Mail(-Adresse)
+el lugar de nacimiento | Geburtsort
+de apellido | mit Nachnamen
+¿Qué haces? | Was machst du (beruflich)? | inf: hacer
+hacer | machen | g
+¿De qué facultad eres? | An welcher Fakultät bist du?
+¿Cuál es tu número de teléfono? | Wie lautet deine Telefonnummer?
+el móvil | Handy
+el celular | Handy | LA
+el número de matrícula | Matrikelnummer
+la arroba (@) | At-Zeichen, Klammeraffe
+el punto (.) | Punkt
+el guion (-) | Bindestrich
+el guion bajo (_) | Unterstrich
+junto/-a | zusammen
+o | oder
+separado/-a | getrennt
+el carnet electrónico | elektronischer Studentenausweis
+¿Para qué? | Wozu?
+usas | du benutzt | inf: usar
+el idioma | Sprache
+la afición | Neigung, Vorliebe
+Italia | Italien
+vivo | ich wohne | inf: vivir
+el / la chico/-a | junge/r Mann / Frau
+Rusia | Russland
+Brasil | Brasilien
+hablo | ich spreche | inf: hablar
+el francés | Französisch
+ahora | jetzt
+aprendo | ich lerne | inf: aprender
+estudiar | studieren; lernen
+busco | ich suche | inf: buscar
+practicar | üben, praktizieren
+cocinas | du kochst | inf: cocinar
+¿Qué tal si …? | Wie wäre es, wenn …?
+juntos/-as | zusammen, gemeinsam
+hablamos | wir sprechen | inf: hablar
+la familia | Familie
+Turquía | Türkei
+vivimos | wir wohnen | inf: vivir
+como | als
+la asignatura optativa | Wahl(pflicht)fach
+optativo/-a | fakultativ, wahlfrei
+comprendo | ich verstehe | inf: comprender
+difícil | schwierig
+leo | ich lese | inf: leer
+mucho | viel
+la pasión | Leidenschaft
+bailas | du tanzt | inf: bailar
+la salsa | Salsa (Musikform und Tanz)
+el tango | Tango (Musikform und Tanz)
+tocas | du spielst | inf: tocar
+entonces | dann
+tener algo en común | etwas gemeinsam haben | g, ie
+algo | etwas
+estudio | ich studiere | inf: estudiar
+el nivel | Niveau, Stufe
+necesito | ich muss, ich brauche | inf: necesitar
+porque | weil
+importante | wichtig
+el alemán | Deutsch
+el ruso | Russisch
+escribo | ich schreibe | inf: escribir
+el artículo | Artikel
+el blog | Blog
+el / la hablante de español | Spanischsprachige/r
+tomar | trinken, essen
+Grecia | Griechenland
+trabajo | ich arbeite | inf: trabajar
+la empresa | Unternehmen
+el turismo | Tourismus
+participo (en) | teilnehmen (an) | inf: participar
+el congreso | Kongress
+internacional | international
+mis | meine
+el / la colega | Kollege/-in
+España | Spanien
+la clase de conversación | Konversationsunterricht
+viajar | reisen
+el teatro | Theater
+el país | Land
+¿Dónde? | Wo?
+¿Quién? | Wer?
+por amor | aus Liebe
+por | pro; durch; für, wegen
+el amor | Liebe
+el / la hispanohablante | Spanischsprachige/r
+escuchar | (zu)hören
+español/a | spanisch
+el café | Kaffee
+la guitarra | Gitarre
+el libro | Buch
+el chile con carne | Chili con carne (scharfer Hackfleischeintopf)
+yo no | ich nicht
+tampoco | auch nicht
+te | dir
+presentar | vorstellen
+contar | erzählen | ue
+el grupo de música | Musikgruppe, Band
+solo/-a | allein
+el tiempo libre | Freizeit
+la cafetería | Café
+el piano | Klavier
+la sociología | Soziologie
+autónomo/-a | autonom
+la presentación | Präsentation, Vorstellung
+¿Quién soy? | Wer bin ich?
+la estrategia | Strategie
+segundo/-a | zweite/r/s
+mejor | beste/r/s
+la calidad de vida | Lebensqualität
+Sudamérica | Südamerika
+el destino | Zielort
+favorito/-a | Lieblings-
+unos/-as | ungefähr | vor Zahlenangaben
+el millón | Million
+el / la turista | Tourist/in
+al año | pro Jahr, jährlich
+la identidad cultural | kulturelle Identität
+cultural | kulturell
+el lunfardo | Varietät des Spanischen aus Buenos Aires
+el subte(rráneo) | U-Bahn, Metro
+el metro | U-Bahn
+el metro más antiguo | die älteste U-Bahn
+antiguo/-a | alt
+fundado/-a | gegründet
+el hospital | Krankenhaus
+el museo | Museum
+(el) marzo | März
+(el) julio | Juli
+(el) agosto | August
+(el) diciembre | Dezember
+Argentina | Argentinien
+¿estudiás? | lernst du? (argentinische Verbform)
+latinoamericano/-a | lateinamerikanisch
+la lengua extranjera | Fremdsprache
+extranjero/-a | ausländisch
+llegar | (an)kommen
+especialmente | besonders, überwiegend
+el mes | Monat
+(el) febrero | Februar
+perfeccionar | vervollkommnen
+la carrera de grado | Hochschulstudium
+la carrera de posgrado | Aufbaustudium
+normalmente | normalerweise
+su | sein/e, ihr/e, Ihr/e
+sus | seine, ihre, Ihre
+la educación | Bildung
+gratuito/-a | kostenlos
+aunque | obwohl; selbst wenn
+hay | es gibt | inf: haber
+otro/-a | ein/e andere/r/s
+que | der / die / das (Relativpronomen)
+popular | beliebt
+Estados Unidos | Vereinigte Staaten, USA
+Canadá | Kanada
+del norte de Europa | nordeuropäisch
+Gran Bretaña | Großbritannien
+gran(de) | groß
+el fútbol | Fußball
+el mate | Mate(-Tee)
+el asado | Braten
+las Cataratas de Iguazú | Iguazú-Wasserfälle
+asociar | assoziieren, verbinden
+
+# L2
+personal | persönlich
+Esta es mi gente. | Das sind meine Freunde und Familie.
+la gente | Leute
+el / la compañero/-a de clase | Klassenkamerad/in
+mejor | beste/r/s
+¡Somos los mejores! | Wir sind die Besten!
+de viaje | unterwegs
+el viaje | Reise, Fahrt
+la madre | Mutter
+el / la hermano/-a | Bruder / Schwester
+la foto | Foto
+la vida | Leben
+la pregunta | Frage
+normalmente | normalerweise
+su pareja | Ihr/e Partner/in
+su | sein/e, ihr/e, Ihr/e
+casado/-a | verheiratet
+el padre | Vater
+sus | seine, ihre, Ihre
+el / la hijo/-a | Sohn / Tochter; Kind
+los / las hermanos/-as | Geschwister; Brüder / Schwestern
+el / la compañero/-a de trabajo | Arbeitskollege
+en general | im Allgemeinen
+¿Cómo? | Wie?
+bueno/-a | gut
+bastante | ziemlich
+malo/-a | schlecht
+el / la abuelo/-a | Großvater/-mutter; Plural: Großeltern
+el / la tío/-a | Onkel / Tante
+el / la primo/-a | Cousin/e
+la relación familiar | Verwandtschaftsbeziehung
+el / la novio/-a | (feste/r) Freund/in
+el / la compañero/-a de piso | Mitbewohner/in
+nuestro/-a | unser/e
+vuestro/-a | euer/e
+el / la hijo/-a único/-a | Einzelkind
+el problema | Problem
+la residencia | (Studenten-)Wohnheim
+siempre | immer
+más de | mehr als
+el / la sobrino/-a | Neffe / Nichte
+la situación | Situation, Lage
+independiente | unabhängig
+cuidar (de) | pflegen, betreuen
+el futuro | Zukunft
+conservar | erhalten, bewahren, beibehalten
+los amigos de toda la vida | alte Freunde
+todo/-a | ganz
+pasar | verbringen
+el estado civil | Familienstand
+¿Con quién? | Mit wem?
+el aspecto | Aspekt
+estar | sein | yo estoy
+soltero/-a | ledig
+divorciado/-a | geschieden
+recuerda | erinnere dich; denke daran | inf: recordar
+aquí | hier
+el / la matemático/-a | Mathematiker/in
+joven | jung
+buena gente | nette Leute
+¿Eh? | Was?
+bajo/-a | klein
+delgado/-a | schlank
+tener el pelo moreno | dunkle Haare haben | g, ie
+el pelo | Haar
+moreno/-a | dunkel(haarig)
+corto/-a | kurz
+la fase | Phase
+llevar | tragen
+la barba | Bart
+simpático/-a | sympathisch
+alegre | fröhlich
+optimista | optimistisch
+demasiado | zu (sehr)
+responsable | verantwortungsvoll; verantwortlich
+el hermano mayor | großer / älterer Bruder
+mayor | älter, älteste/r/s, größer, größte/r/s
+el cómic | Comic
+la música electrónica | elektronische Musik, Elektro-Musik
+solo | nur
+el defecto | Fehler; Defekt
+compartir piso | in einer Wohngemeinschaft leben
+no … nada | überhaupt nicht
+ni | nicht einmal
+el sándwich | (Sandwich), belegtes Brot
+alto/-a | groß
+rubio/-a | blond
+largo/-a | lang
+las gafas | Brille
+la lentilla | (Kontakt)linse
+normal | normal
+divertido/-a | lustig
+trabajador/a | fleißig
+constante | ausdauernd, beständig
+el apunte | Aufschrieb
+perfecto/-a | perfekt
+organizado/-a | ordentlich, strukturiert, systematisch
+el aspecto | Aussehen
+el carácter | Charakter
+gordo/-a | dick
+el adjetivo | Adjektiv
+los dos | beide
+un poco | ein wenig
+me encanta | es gefällt mir sehr
+encantar | begeistern
+me gusta | mir gefällt, ich mag
+gustar | gefallen
+me aburre | mich langweilt
+aburrir | langweilen
+público/-a | öffentlich
+¿Te gusta hablar …? | Sprichst du gerne …?
+¿Te interesan …? | Interessieren dich …?
+interesar | interessieren
+la explicación | Erklärung
+el / la experto/-a | Experte/-in
+una vez a la semana | einmal in der Woche
+la vez | Mal | pl: veces
+visitar | besuchen, besichtigen
+el museo | Museum
+el / la artista | Künstler/in
+que | der / die / das (Relativpronomen)
+nos | uns
+particular | besonders, eigene/r/s
+el punto de vista | Betrachtungsweise, Standpunkt
+te aburren | dich langweilen
+mismo/-a | derselbe / dieselbe / dasselbe
+la ruta | Route, Weg
+la respuesta | Antwort
+y mucho | und zwar sehr
+descubrir | entdecken
+la imagen | Bild
+impactante | beeindruckend, umwerfend
+fotografiar | fotografieren
+el efecto | Wirkung, Effekt
+la cámara | Kamera
+además | außerdem
+la tapa | Appetithäppchen
+me interesa | mich interessiert
+(a él) le | ihm
+(a ella) le | ihr
+el cine | Kino
+francés/-esa | französisch
+la fotografía | Fotografie
+la cosa | Sache
+(a mí) me | mir
+(a ti) te | dir
+(a usted) le | Ihnen (Singular)
+(a nosotros/-as) nos | uns
+(a vosotros/-as) os | euch
+(a ellos / ellas / ustedes) les | ihnen, Ihnen
+Perú | Peru
+Cuba | Kuba
+la moda | Mode
+la comida asiática | asiatisches Essen
+el videojuego | Videospiel, Computerspiel
+el fútbol | Fußball
+el arte moderno | moderne Kunst
+casi nada | kaum
+ver | (an)sehen
+la película | Film
+en versión original | in Originalversion
+el / la nativo/-a | Muttersprachler/in
+la radio | Radio
+la gramática | Grammatik
+el ejercicio | Übung
+el / la Internet | Internet
+¿Con quién? | mit wem?
+¿Por qué? | Warum?
+la dificultad | Schwierigkeit
+la lengua materna | Muttersprache
+la forma de aprender | Lernmethode, Art und Weise zu lernen
+fácil | leicht, einfach
+mechón/-ona | Erstsemester-Studenten | Chile
+el lunes | Montag
+la comparsa | Karnevalstruppe
+la organización | Organisation
+abierto/-a | geöffnet, offen
+gratis | gratis, umsonst
+el concierto | Konzert
+el martes | Dienstag
+el anfiteatro | Amphitheater, Hörsaal
+la danza | Tanz
+la compañía | Ensemble, Truppe
+el foro | Forum
+la convivencia | Zusammenleben
+según | gemäß, nach
+el gobierno | Regierung, Herrschaft
+el circuito | Rundfahrt, Kreislauf
+la memoria | Gedächtnis, Erinnerung
+la inscripción | Anmeldung, Einschreibung
+la charla | (zwanglose) Unterhaltung, Vortrag
+la mecánica | Mechanik
+básico/-a | grundlegend
+aprende | lerne | inf: aprender
+reparar | reparieren
+la mantención | Instandhaltung, Erhalt
+de calidad | hochwertig
+trae | bring | inf: traer
+traer | bringen | yo traigo
+la cleta | Fahrrad | Chile
+el kiosko | Kiosk
+rojo/-a | rot
+el hall | (Eingangs-)Halle | LA
+el juego | Spiel
+deportivo/-a | Sport-
+el carrete | Feier, Party | Chile
+estar a los pies de … | am Fuße von … liegen
+estar | sein, sich befinden | yo estoy
+el pie | Fuß
+los Andes | Anden
+el área metropolitana | (Haupt-)Stadtgebiet
+el Gran Santiago | Großraum von Santiago
+gran(de) | groß
+el / la habitante | Einwohner
+tercero/-a | dritte/r/s
+la ciudad más segura | die sicherste Stadt
+esquiar | Ski fahren
+el instituto | Institut
+saludar | (be)grüßen
+invitar | einladen
+ser parte de | Teil sein von, zu etw. gehören | yo soy
+la comunidad universitaria | Hochschulgemeinschaft
+durante | während
+recién | soeben, neu, frisch
+ingresado/-a | eintreten
+la oportunidad | Gelegenheit
+conocer | kennen lernen | zc
+cultural | kulturell
+ofrecer | (an)bieten | zc
+la visita guiada | Führung
+el tema | Thema
+interesante | interessant
+la vida universitaria | Universitätsleben
+el curso de formación | Trainingskurs, Schulung, Ausbildungslehrgang
+la formación | Aus-, Fortbildung
+extraescolar | außerschulisch
+el centro de estudiantes | Studentenwerk
+recreativo/-a | unterhaltsam, entspannend
+
+# L3
+comer | essen
+la cena | Abendessen
+la pizza | Pizza
+italiano/-a | italienisch
+congelado/-a | (tief-)gefroren, tiefgekühlt
+probablemente | wahrscheinlich
+la lechuga iceberg | Eisbergsalat
+el aperitivo | Aperitiv
+salado/-a | gesalzen, salzig
+la especie | Art, Sorte
+el pastel | Kuchen, Gebäck
+dulce | süß
+la tortilla de patatas | Kartoffelomelett
+la servilleta | Serviette
+el papel de W.C. | Toilettenpapier
+el queso | Käse
+el gazpacho | kalte Gemüsesuppe
+¡Olé! | Bravo! Weiter so!
+saber | wissen | yo sé
+te lo comes | du isst es auf
+la clase | Sorte, Art
+el digestivo | Digestif, Verdauungstrunk
+la absenta | Absinth
+el patxaran (pacharán) | Anis-Schlehen-Likör
+el jager | Jägermeister
+el kalimotxo (calimocho) | Mischgetränk aus Rotwein und Cola
+el guacamole | Avocado-Dip
+el hummus | orientalischer Kichererbsendip
+el agua | Wasser | f
+el salchichón | luftgetrocknete, salamiartige Hartwurst
+el fuet | Hartwurst mit Edelschimmel-Haut
+el chorizo | Paprikawurst
+mitiquérrimo/-a | ein wahrer Mythos, legendär | fam
+la baguette (baguete) | Baguette
+la salsa | Soße
+el aguacate | Avocado
+el tomate | Tomate
+la cebolla | Zwiebel
+el chile | Chili
+la sopa | Suppe
+frío/-a | kalt
+el pepino | Gurke
+la especialidad | Spezialität
+la patata | Kartoffel
+el huevo | Ei
+la bebida | Getränk
+el vino tinto | Rotwein
+la cola | (koffeinhaltige) Limonade
+el azúcar | Zucker
+¿Con qué frecuencia? | Wie oft?
+todas las semanas | jede Woche
+una vez al mes | einmal im Monat
+dos veces al mes | zweimal im Monat
+el restaurante | Restaurant
+reservar | reservieren
+la mesa | Tisch
+comprar | kaufen
+algo preparado | Fertigprodukt, Fertiggericht
+cada (uno/-a) | jede/r/s
+el plato | Speise, Gericht
+el orden | Ordnung, Reihenfolge
+la nevera | Kühlschrank
+ordenar | ordnen, aufräumen
+el truco | Trick, Kniff
+el / la emancipado/-a | Emanzipierte/r
+el tarro | Einmachglas
+pequeño/-a | klein
+la comida preparada | Fertiggericht
+el (producto) lácteo | Milchprodukt
+los embutidos | Wurstwaren
+el pescado | Fisch
+la fruta | Obst, Frucht
+la verdura | Gemüse
+interior | innere/r/s
+la mermelada | Marmelade
+la mantequilla | Butter
+el refresco | Erfrischungsgetränk
+la leche | Milch
+la puerta | Tür
+el atún | Thunfisch
+la lechuga | Kopfsalat
+la gamba | Krabbe, Garnele
+el pan | Brot
+la naranja | Orange
+el plátano | Banane
+el pollo | Hähnchen
+el cerdo | Schwein
+el yogur | Joghurt
+la manzana | Apfel
+el jamón | Schinken
+el zumo (de fruta) | (Frucht-)Saft
+la pasta | Nudeln, Teigwaren
+los cereales | Getreide(flocken), Müsli
+la cerveza | Bier
+el producto | Produkt
+lo / la / los / las | ihn / es / sie
+el ajo | Knoblauch
+tomar | trinken, essen
+maduro/-a | reif
+el alcohol | Alkohol
+todos los días | jeden Tag
+una vez al día | einmal am Tag
+2–3 veces a la semana | zwei- bis dreimal pro Woche
+pocas veces | selten
+nunca | nie
+desayunar | frühstücken
+beber | trinken
+cenar | zu Abend essen
+delante del ordenador / de la tele | vor dem Computer / dem Fernseher
+la comida congelada | Tiefkühlkost
+preferir | bevorzugen | ie
+poder | können, dürfen | ue
+vegetariano/-a | vegetarisch
+vegano/-a | vegan
+soler + inf | etw. zu tun pflegen | ue
+el euro | Euro
+por la mañana | morgens, am Morgen
+los hábitos de comida | Essgewohnheiten
+el tipo | Art
+el dinero | Geld
+gastar | ausgeben
+ayudar | helfen
+el bocadillo | belegtes Brötchen
+la albóndiga | Hackfleischbällchen
+la tarta de manzana | Apfelkuchen
+la ensalada mixta | gemischter Salat
+el filete empanado | paniertes Schnitzel
+el garbanzo | Kichererbsen
+la espinaca | Spinat
+la merluza | Seehecht
+la paella | spanisches Reisgericht
+el flan | Art Karamellpudding
+caliente | warm, heiß
+el postre | Nachtisch
+preparar | zubereiten
+Lleva fruta. | Das ist mit Obst.
+llevar | enthalten
+el segundo (plato) | Hauptspeise, zweiter Gang
+el arroz | Reis
+otro/-a | ein/e andere/r/s
+el ingrediente | Zutat
+el guiso | Schmorgericht; Eintopf
+el origen | Ursprung, Herkunft
+el modo de tomarlo | Einnahmeweise
+picante | scharf
+el mapa | Landkarte
+muchas veces | oft
+mucho/-a | viel/e
+gustar | schmecken
+caro/-a | teuer
+Es bueno/-a para la salud. | Das ist gesund.
+el comedor universitario | (Universitäts-)Mensa
+el hambre | Hunger | f
+el / la vegetariano/-a | Vegetarier/in
+el martes | Dienstag
+(el) septiembre | September
+el menú | Speisekarte; Menü
+el primero | Vorspeise, erster Gang
+el plato del día | Tagesessen, -gericht
+Incluye pan, bebida y postre. | Brot, Getränk und Nachtisch inbegriffen.
+los espaguetis | Spaghetti | pl
+a la sidra | in Cidre
+al horno | Brat-
+el aceite | (Speise-)Öl
+la tortilla española | Kartoffelomelett
+vegetal | Pflanzen-, pflanzlich
+desde | ab
+de primero | als Vorspeise
+de segundo | als Hauptspeise
+de postre | als Nachtisch
+querer | wollen, mögen | ie
+pedir | bestellen, erbitten | i
+para beber | zu trinken
+el / la camarero/-a | Kellner/in
+el / la cliente/-a | Kunde/-in
+¿Qué tomáis? | Was möchtet ihr essen / trinken?
+¿Qué os pongo? | Was darf ich euch bringen?
+Son 3,50 €. | Das macht 3,50 €.
+¿Me cobra/s? | Bitte zahlen!
+cobrar | kassieren
+barato/-a | billig
+la cocina | Küche, Kochkunst
+latino/-a | Latin-
+el día de cierre | Schließtag
+cerrar | schließen | ie
+Abierto el domingo | Sonntags geöffnet
+abierto/-a | geöffnet, offen
+el domingo | Sonntag
+el precio | Preis
+de … a | von … bis
+la descripción | Beschreibung
+estar situado/-a | liegen (geografisch)
+la playa | Strand
+contar con | verfügen über | ue
+la terraza | Terrasse
+exterior | äußere/r/s
+colombiano/-a | kolumbianisch
+peruano/-a | peruanisch
+disponer de | verfügen über | g
+destacar | herausragen
+maravilloso/-a | wunderbar
+el cebiche | Gericht aus rohem Fisch | LA
+excelente | ausgezeichnet
+el jugo | Saft | LA
+el tonel | Fass
+el pincho | Snack, Häppchen
+el calamar | Tintenfisch
+las patatas bravas | wilde Kartoffeln mit scharf gewürzter Soße
+la croqueta | Krokette
+casero/-a | hausgemacht
+el lunes | Montag
+menos de | weniger als
+el bar | Bar, Kneipe
+la ración | Portion
+desde … a | von … bis
+al ajillo | in Knoblauchsoße
+el centro | Zentrum, Stadtmitte
+ideal | ideal
+la reserva | Reservierung
+la tarjeta (de crédito) | (Kredit-)Karte
+accesible | zugänglich, hier: barrierefrei
+el menú especial | Spezial-Menü
+el parking | Parkplatz
+el salón (para) fumadores | Speisesaal für Raucher
+la entrega a domicilio | Lieferung nach Hause
+el miércoles | Mittwoch
+el jueves | Donnerstag
+el viernes | Freitag
+el sábado | Samstag
+moderado/-a | gemäßigt, maßvoll
+aparcar | parken
+abrir | öffnen
+biológico/-a | biologisch
+Es apto para … | Es ist geeignet für …
+la dieta | Ernährungsweise
+¿Dónde está …? | Wo ist …?
+estar | sein, sich befinden
+cerca (de) | in der Nähe (von)
+¿Cómo es? | Wie ist es?
+tranquilo/-a | ruhig
+la (comida) rápida | Fastfood
+¿Qué días abre? | An welchen Tagen ist geöffnet?
+la hora | Uhrzeit
+el número de personas | Personenanzahl
+el comentario | Kommentar
+¿Qué hora es? | Wie viel Uhr ist es?
+Es la una y media de la tarde. | Es ist halb zwei am Nachmittag.
+de la tarde | nachmittags, am Nachmittag
+Son las dos menos cuarto. | Es ist Viertel vor zwei.
+¿A qué hora …? | Um wie viel Uhr …?
+A las diez de la noche. | Um zehn Uhr abends.
+… menos cuarto | Viertel vor …
+… en punto | genau / Punkt …
+… y cuarto | Viertel nach …
+… y media | halb …
+la opinión | Meinung
+enorme | riesig
+a muy buen precio | zu einem sehr guten Preis
+excepto | außer, mit Ausnahme von
+el ambiente | Atmosphäre, Stimmung
+al mediodía | mittags
+la calle | Straße
+agradable | angenehm, freundlich
+de la casa | hauseigen; des Hauses
+grande | groß
+Está muy rico/-a. | Es schmeckt sehr gut.
+las patatas fritas | Pommes frites
+después | danach
+de los de siempre | typisch
+lento/-a | langsam
+esperar | warten
+el vídeo | Video(film)
+sobre | über
+echar de menos | vermissen
+más | am meisten
+la yuca | Maniok
+el frijol | Bohne | LA
+la langosta | Languste
+el tinto | schwarzer Kaffee | LA
+Colombia | Kolumbien
+la papa | Kartoffel | LA
+llamar | nennen
+el banano | Banane | LA
+el congrí | Gericht aus Reis und Bohnen | LA
+cubano/-a | kubanisch
+sobre todo | vor allem, vor allen Dingen
+según | laut seiner / ihrer Aussage
+típico/-a | typisch
+el horario de comidas | Essenszeiten
+en medio de | inmitten
+la altura | Höhe
+el clima | Klima
+seco/-a | trocken
+templado/-a | mild, gemäßigt
+la estatua | Statue
+el Cristo | (Jesus) Christus
+la concordia | Eintracht
+Bolivia | Bolivien
+el / la boliviano/-a | Bolivianer/in
+la hamburguesa | Hamburger
+la cadena de comida rápida | Fastfood-Kette
+la empanada | gefüllte Teigpastete
+el éxito | Erfolg
+el documental | Dokumentarfilm
+¿Por qué quebró McDonald's …? | Warum ging McDonald's … in Konkurs?
+gastronómico/-a | gastronomisch, kulinarisch
+la preparación | Zubereitung
+el maíz | Mais
+donde | wo (Relativpronomen)
+preguntar por las razones | nach den Gründen fragen
+el / la cocinero/-a | Koch/Köchin
+el / la historiador/a | Historiker/in
+el / la nutricionista | Ernährungswissenschaftler/in
+el / la psicólogo/-a | Psychologe/-in
+la mentalidad | Mentalität, Geisteshaltung
+la tierra | Erde; Land; Heimat
+el sabor | Geschmack
+intenso/-a | intensiv, eindringlich
+fuerte | stark
+muchas horas de cocina | viele Stunden zur Zubereitung
+la hora | Stunde
+el alimento | Lebensmittel
+por eso | deshalb
+desconfiar de | misstrauen
+el minuto | Minute
+costar | kosten | ue
+el peso (boliviano) | bolivianische Währung
+el dólar | Dollar
+sin embargo | jedoch, trotzdem
+por ejemplo | zum Beispiel
+el almuerzo | Mittagessen
+completo/-a | vollständig, komplett
+el mercado | Markt
+popular | volkstümlich
+
+# L4
+creer | glauben
+completa | vervollständige | inf: completar
+la ficha | Karteikarte
+compara | vergleiche | inf: comparar
+el / la habitante | Einwohner/in
+el / la ciudadano/-a | Bürger/in
+extranjero/-a | ausländisch
+la temperatura media | Durchschnittstemperatur
+oficial | offiziell
+el kilómetro | Kilometer
+el carril bici | Fahrradweg
+la bici(cleta) | Fahrrad
+la razón | Grund
+antiguo/-a | alt
+aburrido/-a | langweilig
+verde | grün
+el clima | Klima
+el invierno | Winter
+suave | mild
+la media | Durchschnitt, Mittelwert
+el grado | Grad
+hay | es gibt | inf: haber
+la hora de sol | Sonnenstunde
+la hora | Stunde
+el día de luz | Sonnentag
+al año | pro Jahr, jährlich
+aunque | obwohl; selbst wenn
+moverse | sich bewegen | ue
+el tráfico | Verkehr
+un buen sistema | ein gut funktionierendes System
+el transporte público | öffentlicher Nahverkehr
+conectado/-a | verbunden, angeschlossen
+el tren | Zug
+por ejemplo | zum Beispiel
+si | wenn
+el edificio | Gebäude
+emblemático/-a | emblematisch, sinnbildlich, prägend
+la lonja | Auktionshaus, Warenbörse
+el mercado | Markt
+por supuesto | selbstverständlich
+todo un símbolo | ein Symbol schlechthin
+amplio/-a | weit, breit
+cultural | kulturell
+la opción | Option, Möglichkeit
+el tiempo libre | Freizeit
+el espectáculo | Vorstellung, Schauspiel
+de todo tipo | jeglicher Art
+el local | Lokal
+salir por la noche | abends ausgehen
+salir | (hinaus)gehen | g
+el / la amante | Liebhaber/in
+practicar deporte | Sport treiben
+al aire libre | an der frischen Luft
+probar | (aus)probieren | ue
+la horchata | Erdmandelmilch
+tradicional | traditionell
+mediterráneo/-a | Mittelmeer-
+situado/-a | gelegen
+excepcional | außergewöhnlich
+el mar | Meer
+la montaña | Berg, Gebirge
+la arena | Sand
+blanco/-a | weiß
+la zona natural | Naturraum, naturbelassene Gegend
+la zona | Zone, Gegend
+como | wie
+el parque natural | Naturpark, Naturschutzpark, Naturschutzgebiet
+el lago | See
+¿Y qué decir de …? | Und was lässt sich nicht alles zu … sagen?
+decir | sagen | i, g
+el jardín | Garten
+pasear | spazieren gehen
+busca | suche | inf: buscar
+el texto | Text
+la categoría | Bereich, Kategorie
+elige | wähle | inf: elegir
+el motivo | Grund, Beweggrund
+el destino | Zielort
+marca | markiere | inf: marcar
+para ti | für dich
+la zona verde | Grünfläche, Grünanlage
+amable | liebenswürdig
+lee | lies | inf: leer
+otra vez | nochmals
+la tabla | Tabelle
+alguno/-a | irgendein/e/r
+varios/-as | verschiedene, mehrere
+relacionar | verbinden
+atractivo/-a | attraktiv

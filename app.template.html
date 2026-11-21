@@ -345,7 +345,11 @@ textarea.short{min-height:70px}
 
 <script>
 "use strict";
-const SEED = __DECK_JSON__;
+/* Mitgelieferte Decks. "key" ist stabil und verbindet ein Deck im Speicher
+   mit seiner Quelle, damit neue Karten aus dem Repo nachgeliefert werden,
+   ohne den Fortschritt anzufassen. */
+const SEEDS = __SEEDS_JSON__;
+const SEED = SEEDS[0];
 const LS = "kartenstapel.v2";
 
 /* Leitner: drei Stufen, Intervalle skalieren mit der Deckgröße.
@@ -835,6 +839,47 @@ $("#dl-clean").onclick = () => download(`${deck().name.replace(/\W+/g,"-").toLow
   {name:deck().name, cards:listCards(deck()).map(plain)});
 
 /* ================= Start ================= */
+/* Mitgelieferte Decks einspielen.
+   - Ein Seed, der noch nie angelegt wurde, wird als neuer Tab angelegt.
+   - Ein Seed, dessen Tab der Nutzer geloescht hat, kommt nicht zurueck.
+   - Karten, die neu in der Quelle stehen, werden ergaenzt; vorhandene
+     Karten samt Fortschritt und eigenen Aenderungen bleiben unberuehrt.
+   Altbestand vor dieser Logik kennt nur das OSINT-Deck und hat es immer
+   beim ersten Start bekommen — daher gilt es dort als bereits eingespielt. */
+function syncSeeds(){
+  if(!Array.isArray(DB.seeded)){
+    DB.seeded = [];
+    const legacy = Object.values(DB.decks).find(d => !d.seed &&
+      listCards(d).some(c => /^osint-\d+$/.test(c.id)));
+    if(SEEDS[0]){
+      DB.seeded.push(SEEDS[0].key);
+      if(legacy){ legacy.seed = SEEDS[0].key;
+        legacy.seedIds = (SEEDS[0].cards||[]).map(c=>c.id); }   // geloeschte Karten bleiben weg
+    }
+  }
+  SEEDS.forEach(s => {
+    const src = (s.cards||[]).filter(c => c && ID_OK.test(c.id||""));
+    let d = Object.values(DB.decks).find(x => x.seed === s.key);
+    if(!d){
+      if(DB.seeded.includes(s.key)) return;                 // bewusst geloescht
+      d = newDeck(s.name, []); d.seed = s.key; d.seedIds = [];
+      DB.decks[d.id] = d; DB.seeded.push(s.key);
+      if(!DB.active) DB.active = d.id;
+    }
+    if(!Array.isArray(d.seedIds)) d.seedIds = [];
+    const known = new Set(d.seedIds);
+    src.forEach(raw => {
+      if(known.has(raw.id)) return;
+      d.seedIds.push(raw.id);
+      if(d.cards[raw.id]) return;
+      const c = newCard(raw, 0);
+      if(c.prompt && c.answer) d.cards[c.id] = c;
+    });
+  });
+  if(!DB.seeded.length && !Object.keys(DB.decks).length){   // leerer Notfall
+    const d = newDeck("Deck", []); DB.decks[d.id] = d;
+  }
+}
 function migrate(old){
   // v1 kannte nur ein Deck und speicherte cards als Objekt
   const d = newDeck("OSINT-Klausur", Object.values(old.cards||{}));
@@ -854,15 +899,12 @@ function migrate(old){
       if(!ID_OK.test(k)){ delete DB.decks[k]; }
       else DB.decks[k].name = clean(DB.decks[k].name, 60) || "Deck";
     });
-    if(!Object.keys(DB.decks).length){
-      const d = newDeck(SEED.name || "OSINT-Klausur", SEED.cards || []);
-      DB.decks[d.id] = d;
-    }
     if(!DB.decks[DB.active]) DB.active = Object.keys(DB.decks)[0];
   } else {
-    const d = newDeck(SEED.name || "OSINT-Klausur", SEED.cards || []);
-    DB = {v:2, active:d.id, mode:"quiz", decks:{[d.id]:d}};
+    DB = {v:2, active:null, mode:"quiz", decks:{}, seeded:[]};
   }
+  syncSeeds();
+  if(!DB.decks[DB.active]) DB.active = Object.keys(DB.decks)[0];
   DB.mode = DB.mode || "quiz";
   DB.theme = DB.theme || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   applyTheme();
